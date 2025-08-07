@@ -15,4 +15,5 @@ Rails.application.routes.draw do
 
   get "about", to: "pages#about"
   get "objectives", to: "pages#objectives"
+  get "newrecruits", to: "pages#newrecruits"
 end
