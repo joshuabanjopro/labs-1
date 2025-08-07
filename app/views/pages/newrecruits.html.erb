@@ -1,0 +1,9 @@
+<h1>Come and meet some of our new recruits :D</h1>
+
+<ul>
+    <% x = 0 %>
+    <% @avengers_new_recruits.each do |new_recruit| %>
+        <li><%= new_recruit %> is <%= @avengers_new_recruits_comments[x] %> </li>
+        <% x += 1 %>
+    <% end %>
+</ul>
